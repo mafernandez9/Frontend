@@ -1,0 +1,21 @@
+.search-bar input {
+    margin: 20px;
+    height: 30px;
+    width: 500px;
+    margin-top: 40px;
+}
+
+.search-bar button {
+    display: inline;
+    height: 40px;
+    width: 80px;
+    font-family: sans-serif;
+    color: #251B1B;
+    font-weight: bolder;
+    background-color: #cee5d0;
+    border-radius: 10%;
+}
+
+.search-bar button:hover {
+    opacity: 0.7;
+}

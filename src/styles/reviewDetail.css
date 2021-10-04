@@ -1,0 +1,113 @@
+.profile {
+    text-align: center;
+    /* color: white; */
+    background: #edeae8;
+    margin: 0px;
+    padding-bottom: 60px;
+    height: auto;
+  }
+
+  .info-book {
+      background-image: url('https://dbdzm869oupei.cloudfront.net/img/sticker/preview/19011.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 50px;
+      font-family: sans-serif;
+      color: #251B1B;
+      /* border-style: outset;
+      border-color: silver;
+      margin-left: 300px;
+      margin-right: 300px; */
+  }
+.info-book h1 {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin-left: 400px;
+    line-height: 60px;
+    /* font-size: xx-large; */
+    height: 60px;
+    margin-right: 400px;
+}
+.info-book h3 {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin-left: 500px;
+    line-height: 40px;
+    height: 40px;
+    margin-right: 500px;
+}
+
+.synopsis p {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 200px;
+    font-style: italic;
+    color: #251B1B;
+    font-size: larger;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.title-syn {
+    color: #b5b8b1;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    font-size: xxx-large;
+}
+
+.info-book img {
+    height: 400px;
+    width: 260px;
+}
+
+.profile hr {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.newreview #left {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+}
+
+.newreview {
+    border-radius: 20px;
+    overflow:auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    padding: 10px;
+    color: #251B1B,
+}
+.newreview img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.newreview #right {
+    width: 80%;
+    float: right;
+    text-align: left;
+    font-family: verdana;
+}
+
+.newreview #right h4 {
+    margin-bottom: 0px;
+}
+
+.newreview #right #comment {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    
+}
+
+.newreview a {
+    margin-right: 29px;
+}

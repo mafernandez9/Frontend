@@ -1,0 +1,99 @@
+.books {
+    text-align: center;
+    /* color: white; */
+    background: #edeae8;
+    margin: 0px;
+    padding-bottom: 60px;
+    height: auto;
+  }
+  
+ .books .title {
+    background-color: #cccc;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../portada.jpg');
+    
+    /* background-image: url('https://www.ecestaticos.com/image/clipping/557/418/1efc58338e52982ad1390a9b7ace9e69/los-libros-que-debes-leer-en-2018-segun-los-200-000-empleados-de-jp-morgan.jpg'); */
+    /* opacity: 0.7; */
+    /* margin: 1em;   */
+    text-shadow: 2px 1px 4px #edeae8;
+    color: #251B1B;
+    margin: 0px;
+    line-height: 250px;
+    height: 250px;
+    padding: 30px;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: revert;
+    padding: revert;
+}
+  
+  .book-list{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .books img {
+    width: 210px;
+    height: 300px;
+  }
+  .single-book {
+    /* background-color: #73502a; */
+    background-image: url('https://dbdzm869oupei.cloudfront.net/img/sticker/preview/19011.png');
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 1%;
+    display: inline-block;
+    vertical-align: top;
+    color: #251B1B;
+    margin-right: 5%;
+    height: 450px;
+    margin-top: 3%;     
+    font-family: sans-serif;
+    padding-top: 30px;
+  }
+
+  .single-book h3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px;
+  }
+
+.boton-libro {
+  background-color: #cee5d0;
+  width: 250px;
+  padding-top: 7px;
+  border-radius: 5px;
+  padding-bottom: 7px;
+  display: inline;
+  /* height: 40px; */
+  /* width: 80px; */
+  font-family: sans-serif;
+  color: #251B1B;
+  font-weight: bolder;
+  /* background-color: #cee5d0; */
+  /* border-radius: 10%; */
+}
+#boton-profile-libro {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.boton-libro a {
+  color: #251B1B;
+}
+.boton-libro:hover {
+    opacity: 0.7;
+}
+
+.single-book .link {
+  text-decoration: none;
+  color: #251B1B;
+}

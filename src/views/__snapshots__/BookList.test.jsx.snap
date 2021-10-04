@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList when user gets into the page renders the home page with links to register and log in 1`] = `
+Array [
+  <nav
+    className="nav-bar"
+  >
+    <span
+      className="logo"
+    >
+      <h3
+        className="bookkers"
+      >
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+        >
+          📚Bookkers
+        </a>
+      </h3>
+    </span>
+    <span
+      className="options"
+    >
+      <a
+        className="link"
+        href="/login"
+        onClick={[Function]}
+      >
+        <p>
+          Log in
+        </p>
+      </a>
+      <a
+        className="link"
+        href="/signup"
+        onClick={[Function]}
+      >
+        <p>
+          Sign up
+        </p>
+      </a>
+    </span>
+  </nav>,
+  <div>
+    <div
+      className="books"
+    >
+      <div>
+        <h3
+          className="title"
+        >
+          Lista de libros
+        </h3>
+      </div>
+      <div
+        className="search-bar"
+      >
+        <input
+          placeholder="¿Qué buscas?"
+        />
+        <button
+          type="submit"
+        >
+          Buscar
+        </button>
+      </div>
+      <ul
+        className="book-list"
+      />
+    </div>
+  </div>,
+  <footer>
+    📚 Bookkers hecha por: Paula Torres, Matías Fernández y Marjorie Bascuñán.
+  </footer>,
+]
+`;

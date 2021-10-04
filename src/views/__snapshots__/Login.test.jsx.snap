@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login shows login form when user is not logged in 1`] = `
+Array [
+  <nav
+    className="nav-bar"
+  >
+    <span
+      className="logo"
+    >
+      <h3
+        className="bookkers"
+      >
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+        >
+          📚Bookkers
+        </a>
+      </h3>
+    </span>
+    <span
+      className="options"
+    >
+      <a
+        className="link"
+        href="/login"
+        onClick={[Function]}
+      >
+        <p>
+          Log in
+        </p>
+      </a>
+      <a
+        className="link"
+        href="/signup"
+        onClick={[Function]}
+      >
+        <p>
+          Sign up
+        </p>
+      </a>
+    </span>
+  </nav>,
+  <div>
+    <div
+      className="box"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Go Back
+      </a>
+      <p>
+         
+      </p>
+      <h2>
+        Login with your account
+      </h2>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="field"
+        >
+          <label
+            className="texto2"
+            htmlFor="email"
+          >
+            Email:
+          </label>
+          <p>
+             
+          </p>
+          <input
+            className="field2"
+            id="email"
+            name="email"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            className="texto2"
+            htmlFor="password"
+          >
+            Password:
+          </label>
+          <p>
+             
+          </p>
+          <input
+            className="field2"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="actions"
+        >
+          <button
+            className="buttonLogin"
+            disabled={true}
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+      <p>
+        
+      </p>
+    </div>
+  </div>,
+  <footer>
+    📚 Bookkers hecha por: Paula Torres, Matías Fernández y Marjorie Bascuñán.
+  </footer>,
+]
+`;

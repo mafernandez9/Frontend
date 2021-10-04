@@ -1,0 +1,53 @@
+
+
+
+.nav-bar {
+    background-color: #3fab9b;
+    height: 60px;
+}
+.logo {
+    font-family: Verdana;
+    color: #f3f0d7;
+    font-weight: bold;
+    margin-left: 30px;
+    display: inline-block;
+}
+.logo h3 {
+    float: left;
+}
+.options p {
+    display: inline-block;
+    margin: 20px;
+    font-family: Verdana;
+    color: #f3f0d7;
+    font-weight: bold;
+    
+}
+
+.options p:hover {
+    opacity: 0.7;
+}
+
+.options {
+    float: right;
+}
+
+.bookkers {
+    color:white;
+}
+
+.nav-bar .link {
+    text-decoration: none;
+    color:white;
+}
+
+.buttonLogout {
+    text-decoration: None;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}

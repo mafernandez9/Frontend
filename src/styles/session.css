@@ -1,0 +1,60 @@
+.box {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #292727;
+    width: 500px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 5%;
+    box-shadow: 7px 7px 20px -3px rgba(84,84,84,0.88);
+}
+
+
+.field2 {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: -15%;
+    text-decoration: none;
+}
+
+.box .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana;
+    background: #55a298;
+    border: 4px solid #55a298;
+    width: 180px;
+    text-align: center;
+    margin-top: 5px;
+    height: 35px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+.box .button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.box h2, .box h3 {
+    font-family: Verdana;
+    color: #3fab9b;
+}
+
+.texto2, .bloque{
+    font-family: Verdana;
+    position: relative;
+    top: 15%;
+}

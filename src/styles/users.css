@@ -1,0 +1,53 @@
+#user-card {
+    height: 330px;
+    width: 280px;
+    margin: 10px;
+}
+#user-card img {
+    /* border-radius: 50%; */
+    /* height: 200px;
+    width: 200px; */
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 50%; */
+    /* margin-top: 20px; */
+}
+.user-list {
+    /* display: inline-flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.users {
+    text-align: center;
+}
+
+.users #title-comunidad {
+    background-color: #cccc;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://dbdzm869oupei.cloudfront.net/img/sticker/preview/19011.png');
+    
+    /* background-image: url('https://www.ecestaticos.com/image/clipping/557/418/1efc58338e52982ad1390a9b7ace9e69/los-libros-que-debes-leer-en-2018-segun-los-200-000-empleados-de-jp-morgan.jpg'); */
+    /* opacity: 0.7; */
+    /* margin: 1em;   */
+    margin: 0px;
+    /* line-height: 110px; */
+    height: 160px;
+    padding: 30px;
+}
+
+#title-comunidad .title {
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #251B1B;
+    margin: 25px;
+    text-shadow: 2px 1px 4px #edeae8;
+
+}

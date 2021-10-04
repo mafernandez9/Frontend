@@ -1,0 +1,10 @@
+footer {
+    background-color: #3fab9b;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-family: Verdana;
+    color: #f3f0d7;
+    font-weight: bold;
+    font-size: small;
+}
